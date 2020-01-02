@@ -6,3 +6,6 @@ A FeatherLite child theme in suppot of the Classic Commerce plugin for ClassicPr
 2. Add Classic Commerce support with out bloating the main (parent) FeatherLite theme
 
 ## More details to follow!
+
+### Credits
+The Commerce design of this theme is inspired by the OceanWP theme and most of the styling is borrowed from there.
