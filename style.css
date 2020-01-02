@@ -1,0 +1,204 @@
+/*
+ Theme Name:   FeatherLite Commerce
+ Theme URI:    https://getfeatherlite.com/featherlite-commerce
+ Description:  A FeatherLite child theme in suppot of the Classic Commerce plugin for ClassicPress
+ Author:       GetFeatherLite
+ Author URI:   https://getfeatherlite
+ Version:      1.0.0
+ Template:     featherlite
+ Tags          light, featherlite
+ Text Domain   featherlite-commerce
+ Domain Path   /languages
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+a, a:visited,
+header.entry-header h2.entry-title a, header.entry-header h2.entry-title a, header.entry-header h2.entry-title a, .site-branding a,
+footer.site-footer a, footer.site-footer a:hover, footer.site-footer a:focus, footer.site-footer a:active {
+	color: #13aff0; 
+}
+
+.woocommerce .page-content,
+.woocommerce .entry-content,
+.woocommerce .entry-summary,
+.woocommerce-page .page-content,
+.woocommerce-page .entry-content,
+.woocommerce-page .entry-summary {
+    margin: 0px;
+}
+
+.customizer-ocw-container .widget {
+    margin: 0;
+    padding: 0;
+}
+
+.widget-title {
+    display: block;
+    line-height: 1;
+    font-size: 13px;
+    font-weight: 400;
+    color: #13aff0;
+	border-width: 0 0 0 3px;
+	border-style: solid;
+	border-color: #13aff0;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+#toTop,
+.site-main .navigation.pagination .nav-links .page-numbers,
+button, input[type="button"], input[type="reset"], input[type="submit"],
+.tagcloud a, .tags-links a, .read-more a, .page-links .page-links-number,
+.woocommerce nav.woocommerce-pagination ul li a:focus, 
+.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, 
+.woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #13aff0;
+}
+.amount,
+.woocommerce ul.products li.product .price .amount {
+	color: #13aff0;
+}
+.read-more a,
+.woocommerce nav.woocommerce-pagination ul li a:focus, 
+.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, 
+.woocommerce button.button.alt, .woocommerce input.button.alt {
+	color: #f7f7f7;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+	color: #13aff0;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    border-color: #13aff0;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    text-align: center;
+}
+
+.woocommerce .products .star-rating {
+    display: inline-block;
+}
+
+.woocommerce .woocommerce-ordering select {
+    min-height: unset;
+    margin: 0 10px;
+}
+
+.commerce-no-sidebar #primary.content-area {
+    float: none;
+    width: 100%;
+    padding: 0;
+	margin: 0 auto;
+}
+
+.woocommerce span.onsale {
+    margin: 0;
+    padding: 12px 15px;
+	border-radius: 0;
+	background-color: #13aff0;
+}
+
+.woocommerce ul.products li.product .onsale {
+    top: 0;
+    right: 0;
+    left: auto;
+    margin: 0;
+}
+
+.woocommerce div.product p.price {
+    font-size: 28px;
+}
+
+.woocommerce div.product div.summary .price del {
+    font-size: 18px;
+    color: #d90404;
+}
+
+del .amount {
+    color: #d90404;
+}
+
+.woocommerce .cart-collaterals .products .product {
+    margin-bottom: 10px;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    color: #f7f7f7;
+    background-color: #13aff0;
+	border-radius: 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border: 1px solid #13aff0;
+    background-color: transparent;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs::before {
+    border-bottom: 0;
+}
+.woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+    border: 0;
+	display: none;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border: 0;
+    border-radius: 0;
+	background-color: #13aff0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+	color: #f7f7f7;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li:hover,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
+	color: #13aff0;
+	background-color: #f7f7f7;
+}
+
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+    background-color: #13aff0;
+    color: #f7f7f7;
+    border-top: 3px solid #f7f7f7;
+}
+
+.woocommerce .woocommerce-ordering {
+    margin: 0.4em 0 1em;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 993px) {
+	.woocommerce .col2-set, .woocommerce-page .col2-set {
+		width: 48%;
+		float: left;
+	}
+
+	.woocommerce .col2-set .col-1 {
+		width: 100%;
+		float: left;
+	}
+
+	.woocommerce .col2-set .col-2 {
+		width: 100%;
+		float: left;
+	}
+
+	#order_review_heading {
+		display:none
+	}
+	
+	.woocommerce-checkout-review-order {
+		width: 48%;
+		float: right;
+		margin-top: 3%;
+	}
+}
